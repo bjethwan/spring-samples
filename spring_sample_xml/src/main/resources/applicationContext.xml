@@ -8,11 +8,8 @@
 		class="com.bjethwan.repository.HibernateCustomerRepositoryImpl" />
 
 
-	<bean name="customerService" 
-			class="com.bjethwan.service.CustomerServiceImpl">
-			
+	<bean name="customerService" class="com.bjethwan.service.CustomerServiceImpl">
 		<property name="customerRepository" ref="customerRepository" />
-		
 	</bean>
 
 </beans>
